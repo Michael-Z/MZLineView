@@ -15,7 +15,7 @@
 		3456B9DA1A7214DC003BAC75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3456B9D91A7214DC003BAC75 /* Images.xcassets */; };
 		3456B9DD1A7214DC003BAC75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3456B9DB1A7214DC003BAC75 /* LaunchScreen.xib */; };
 		3456B9E91A7214DC003BAC75 /* mzlineviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3456B9E81A7214DC003BAC75 /* mzlineviewTests.m */; };
-		3456B9F51A72150A003BAC75 /* MZLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3456B9F41A72150A003BAC75 /* MZLineView.m */; };
+		3456B9FD1A72244A003BAC75 /* MZLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3456B9FC1A72244A003BAC75 /* MZLineView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +44,8 @@
 		3456B9E21A7214DC003BAC75 /* mzlineviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mzlineviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3456B9E71A7214DC003BAC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3456B9E81A7214DC003BAC75 /* mzlineviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mzlineviewTests.m; sourceTree = "<group>"; };
-		3456B9F31A72150A003BAC75 /* MZLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZLineView.h; sourceTree = "<group>"; };
-		3456B9F41A72150A003BAC75 /* MZLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZLineView.m; sourceTree = "<group>"; };
+		3456B9FB1A72244A003BAC75 /* MZLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZLineView.h; sourceTree = "<group>"; };
+		3456B9FC1A72244A003BAC75 /* MZLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZLineView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		3456B9C81A7214DC003BAC75 /* mzlineview */ = {
 			isa = PBXGroup;
 			children = (
-				3456B9F21A7214F6003BAC75 /* mzlineview */,
+				3456B9FA1A72244A003BAC75 /* mzlineview */,
 				3456B9CD1A7214DC003BAC75 /* AppDelegate.h */,
 				3456B9CE1A7214DC003BAC75 /* AppDelegate.m */,
 				3456B9D01A7214DC003BAC75 /* FirstViewController.h */,
@@ -128,13 +128,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3456B9F21A7214F6003BAC75 /* mzlineview */ = {
+		3456B9FA1A72244A003BAC75 /* mzlineview */ = {
 			isa = PBXGroup;
 			children = (
-				3456B9F31A72150A003BAC75 /* MZLineView.h */,
-				3456B9F41A72150A003BAC75 /* MZLineView.m */,
+				3456B9FB1A72244A003BAC75 /* MZLineView.h */,
+				3456B9FC1A72244A003BAC75 /* MZLineView.m */,
 			);
-			path = mzlineview;
+			name = mzlineview;
+			path = ../../mzlineview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +242,7 @@
 				3456B9CF1A7214DC003BAC75 /* AppDelegate.m in Sources */,
 				3456B9D21A7214DC003BAC75 /* FirstViewController.m in Sources */,
 				3456B9CC1A7214DC003BAC75 /* main.m in Sources */,
-				3456B9F51A72150A003BAC75 /* MZLineView.m in Sources */,
+				3456B9FD1A72244A003BAC75 /* MZLineView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +435,7 @@
 				3456B9EE1A7214DC003BAC75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3456B9EF1A7214DC003BAC75 /* Build configuration list for PBXNativeTarget "mzlineviewTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +444,7 @@
 				3456B9F11A7214DC003BAC75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
